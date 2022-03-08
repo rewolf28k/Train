@@ -1,0 +1,7 @@
+Let’s consider creating a LinkedHashMap that stores the student information. The key is the id of the student and the value is the name of the student.
+
+We are inserting our first record, 123; “Roy” in LinkedHashMap on the tail. The following process will occur:
+
+The hash of 123 will be calculated and based on the hash value, a bucket will be decided. Let’s say the bucket is 5.
+An Entry object is created with the key as 123 and the value as Roy. The before and after fields are set to null as this is the first record.
+Since there is no element in the LinkedHashMap, both the head and tail variables are null. Now both these variables will point towards the newly created Entry.
